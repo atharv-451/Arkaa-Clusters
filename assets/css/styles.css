@@ -918,7 +918,7 @@ the website, in dark theme
   }
   .nav__list{
     flex-direction: row;
-    column-gap: 1.7rem;
+    column-gap: 1.62rem;
   }
   .nav__menu{
     margin-left: auto;
