@@ -149,6 +149,7 @@ the website, in dark theme
 }
 
 .dark-theme .scroll-header{
+
   box-shadow: 0 1px 4px hsla(var(--hue), 4%, 4%, .3);
 }
 
@@ -199,6 +200,10 @@ the website, in dark theme
   display: flex;
   justify-content: space-between;
   align-items: center;
+   
+}
+.nav__clr .nav__link{
+  color:white;
 }
 
 .nav__logo,
@@ -279,6 +284,7 @@ the website, in dark theme
 
 /* Change background header */
 .scroll-header{
+  background-color: hsl(159, 45%, 42%);
   box-shadow: 0 1px 4px hsla(var(--hue), 4%, 15%, .1);
 }
 
