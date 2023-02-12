@@ -203,7 +203,7 @@ the website, in dark theme
    
 }
 .nav__clr .nav__link{
-  color:white;
+  color:rgb(0, 0, 0);
 }
 
 .nav__logo,
@@ -303,7 +303,40 @@ the website, in dark theme
   height: 2px;
   background-color: var(--first-color);
 }
-
+.sub-menu-1
+{
+	display: none;
+}
+.nav__menu ul li:hover .sub-menu-1
+{
+  display: block;
+  position: absolute;
+  background: #ffffff;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+.nav__menu ul li:hover .sub-menu-1 ul
+{
+  display: block;
+  margin: 10px;
+}
+.nav__menu ul li:hover .sub-menu-1 ul li
+{
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+.nav__menu ul li:hover .sub-menu-1 ul li:last-child
+{
+  border-bottom: none;
+}
+.nav__menu ul li:hover .sub-menu-1 ul li a:hover
+{
+	color: #fff;
+}
 /*=============== HOME ===============*/
 .home{
   padding: 3.5rem 0 2rem;
