@@ -324,7 +324,7 @@ the website, in dark theme
 {
   width: 150px;
   padding: 10px;
-  border-bottom: 1px dotted #fff;
+  border-bottom: 1px dotted #000000;
   background: transparent;
   border-radius: 0;
   text-align: left;
